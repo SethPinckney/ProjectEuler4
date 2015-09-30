@@ -28,9 +28,9 @@ public class ProjectEuler4 {
 					
 				if (digit6 == digit1 && digit5 == digit2 && digit3 == digit4){
 					if (saveanswer > largestanswer) {
-						System.out.println("__________________________________");
-						System.out.println(digit6+""+digit5+""+digit4+""+digit3+""+digit2+""+digit1);
-						System.out.println(palin1+ " X "+palinb);
+						//System.out.println("__________________________________");
+						//System.out.println(digit6+""+digit5+""+digit4+""+digit3+""+digit2+""+digit1);
+						//System.out.println(palin1+ " X "+palinb);
 						largestanswer = saveanswer;
 					}	
 				}	
@@ -38,6 +38,7 @@ public class ProjectEuler4 {
 			}
 				
 		}
+		System.out.println(largestanswer);
 		
 	}
 
